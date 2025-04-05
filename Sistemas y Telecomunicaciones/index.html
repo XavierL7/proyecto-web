@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistemas Y Telecomunicaciones</title>
+</head>
+<body>
+    <video autoplay muted loop id="video-fondo">
+        <source src="Fondo de hacker.mp4" type="video/mp4">
+        Tu navegador no soporta videos HTML5
+    </video>
+
+    <header>
+        <div class="header-content">
+            <img src="logo.png" alt="Logo" class="logo">
+            <h1>Sistemas y Telecomunicaciones</h1>
+        </div>
+        <nav>
+            <button onclick="location.href='index.html'">Inicio</button>
+            <button onclick="location.href='#bugs-section'">Bugs</button>
+            <button onclick="location.href='#autenticacion-section'">A y A</button>
+        </nav>
+    </header>
+    
+    <div class="main-content">
+        <div class="content-with-images">
+            <div class="text-section">
+                <h2>Tendencias técnicas que afectan la seguridad del Software </h2>
+                <div class="image-placeholder">
+                    <img src="img1.jpg" alt="imagen1" class="imagen1" style="margin-bottom: 40px;">
+                </div>
+                <p>A continuación se expondrán algunos aspectos de seguridad que debe considerar:</p>
+                <p>Algunos de los detalles personales que podría compartir en redes sociales, son muchas veces los mismos elementos que se usan en las preguntas "secretas" de seguridad, por eso se recomienda poner en privado sus cuentas y no aceptar solicitudes de amistad de desconocidos.</p>
+                <p>Al realizar negocios con empresas de confianza, esté consciente de las políticas de privacidad de los sitios y servicios de la web.</p>
+                <p>Se recomienda usar programas antivirus y/o firewalls de fabricantes conocidos para mantenerse más seguros.</p>
+                <p>Para un mejor nivel de confiabilidad mantenga una política de cambio de contraseñas de manera periódica, en la que utilice contraseñas más fuertes para proteger sus datos. Se recomienda que usen mayúsculas, minúsculas, números y símbolos.</p>
+                <h3>Algunos mitos sobre la seguridad</h3>
+                <ol>
+                    <li><strong>Tengo un software antivirus y un cortafuegos, eso es suficiente.</strong>
+                    <p>En la era del internet, aunque tenga instalado en su PC un programa antivirus que es necesario e importante, este no es suficiente. Los nuevos virus van apareciendo y de manera más agresiva es su acción, de igual manera sucede con el firewall (cortafuegos).</p></li>
+                    
+                    <li><strong>Solo las grandes empresas son objetivo para los hackers</strong>
+                    <p>Los hackers generalmente roban por la red buscando presas fáciles o empresas pequeñas que no invierten en complejos productos de seguridad, lo que las hace atractivas para realizar sus hazañas.</p></li>
+                    
+                    <li><strong>Estoy seguro porque uso un software que me dice que estoy seguro</strong>
+                    <p>Si bien es cierto que las herramientas de escaneo de vulnerabilidades automatizadas pueden encontrar fallas de seguridad, estas no pueden convertirse en la solución, pues estas herramientas están auditando con base a un registro establecido y estándar para la mayoría de servicios, pero afortunadamente cada programa, servicio o aplicativo web es diferente desde el momento de su concepción hasta su puesta en marcha.</p></li>
+                    
+                    <li><strong>El sistema puede llegar a ser 100% seguro</strong>
+                    <p>La "seguridad absoluta" no existe. Es cierto que varias empresas ofrecen sus productos o servicios, asegurando que solucionan todos los problemas de seguridades habidas y por haber. 
+                    Lo que siempre puede hacerse es aumentar la seguridad.</p></li>
+                </ol>
+                <h2 id="bugs-section">Bugs</h2>
+                <div class="image-placeholder">
+                    <img src="img2.jpeg" alt="imagen2" class="imagen1" style="margin-bottom: 40px;">
+                </div>
+                <p>Un bug es un error o fallo en un programa de computadora que produce un resultado inesperado. También se le conoce como error de software. </p>
+                <h3>Características</h3>
+                <ol>
+                    <li>Pueden ser causados por una mala programación o un mal diseño.</li>
+                    <li>Pueden ser pequeños y fáciles de resolver, o muy graves y afectar la funcionalidad del programa.</li>
+                    <li>Pueden manifestarse de varias formas, como pantallas de error, cierres inesperados de programas, pérdida de datos.</li>
+                    <li>Los programas que ayudan a la detección y eliminación de errores de software son denominados depuradores.</li>
+                </ol>
+                <h3>Origen del  término</h3>
+                <p>El nombre bug viene de la época en que se desarrollaron los primeros ordenadores. Los insectos a menudo se metían en la carcasa del ordenador y causaban un cortocircuito o un mal funcionamiento similar. El inventor estadounidense y fundador de General Electric, Thomas Alva Edison describió en sus anotaciones como "bugs" a los problemas técnicos que se le presentaban al desarrollar algún proyecto.</p>
+                
+                <h2 id="autenticacion-section">Autentificación y autorización</h2>
+                <div class="image-placeholder">
+                    <img src="img3.jpeg" alt="imagen2" class="imagen1" style="margin-bottom: 40px;">
+                </div>
+                <p><strong>¿Qué es la autentificación?</strong>
+                    La autentificación es el proceso de verificar la identidad de un usuario antes de que se otorgue acceso a las redes, cuentas, aplicaciones, sistemas y otros recursos. Durante la autentificación, un usuario proporcionará una forma de identificación, y luego demostrará que el usuario es quien dice ser.</p>
+                    <p>Por lo general, es posible autenticar otorgando credenciales como:</p>
+                    <p><strong>Algo que sabe:</strong> Demuestra su identidad utilizando información privada que solo usted conoce, como una contraseña, un PIN o una pregunta y respuesta de seguridad.</p>
+                
+                    <p><strong>Algo que usted tiene:</strong> Esto prueba su identidad utilizando objetos únicos que solamente usted tendría, como un token de seguridad físico o virtual.</p>
+                    
+                    <p><strong>Algo que usted es:</strong> Esto prueba su identidad utilizando sus características biométricas únicas, como su cara para el reconocimiento facial o su huella dactilar para un escáner de huellas.</p>
+                
+                <h3>¿Qué es la autorización?</h3>
+                <p>La autorización es un proceso que determina el nivel de acceso que un usuario tiene a los recursos del sistema. Después de la autenticación, se determinará qué nivel de acceso tiene el usuario autorizado a ciertos recursos de la organización. La autorización limita el acceso a los recursos de una organización, lo que evita el acceso no autorizado.</p>
+            
+                <h3>¿Cuál es la diferencia entre autenticación y autorización?</h3>
+                <p>En cuanto a su función, podemos decir que mientras la autenticación es la dinámica por la que se identifica y confirma la identidad de un usuario, la autorización consiste en el proceso de otorgar o restringir el acceso a un determinado componente, considerando los privilegios de acceso de cada persona.</p>
+                
+                <h3>Las diferencias más puntuales además de la función son:</h3>
+                <ol>
+                    <li>La autenticación es el primer procedimiento de ciberseguridad.</li>
+                    <li>Los usuarios pueden modificar los factores de autenticación para reforzar la seguridad, mientras que el proceso de autorización solo se puede cambiar bajo la aceptación del equipo de TI o de los encargados corporativos.</li>
+                    <li>El proceso de autenticación es visible, al contrario de lo que ocurre con el procedimiento de autorización que es invisible.</li>
+                    <li>Las credenciales confirman la identidad de los usuarios. Las reglas y las políticas establecen si se debe o no proporcionar el acceso durante el proceso de autorización.</li>
+                </ol>
+                
+                <h3>Materiales de referencia</h3>
+                <ul class="referencias-lista">
+                    <li><a href="https://www.grafiati.com/en/literature-selections/seguridad-informatica/" target="_blank">Seguridad informática - Grafiati</a></li>
+                    <li><a href="https://ojs.unemi.edu.ec/index.php/cienciaunemi/article/view/19/15" target="_blank">Ciencia UNEMI - Artículo sobre seguridad</a></li>
+                    <li><a href="https://www.docusign.com/es-mx/blog/desarrolladores/diferencia-entre-autenticacion-yautorizacion" target="_blank">Diferencia entre autenticación y autorización - DocuSign</a></li>
+                    <li><a href="https://www.keepersecurity.com/blog/es/2023/12/26/authentication-vs-authorization-whats-thedifference/" target="_blank">Authentication vs Authorization - Keeper Security</a></li>
+                    <li><a href="https://www.redeszone.net/tutoriales/seguridad/diferencias-autenticacion-autorizacion/" target="_blank">Diferencias entre autenticación y autorización - RedesZone</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        </div>
+    </div>
+    
+
+    <footer>
+        <p>&copy; 2024 Marca Ficticia. Todos los derechos reservados.</p>
+
+    </footer>
+</body>
+</html>
