@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conceptos de Redes</title>
+</head>
+<body>
+    <video autoplay muted loop id="video-fondo">
+        <source src="Fondo de hacker.mp4" type="video/mp4">
+        Tu navegador no soporta videos HTML5
+    </video>
+
+    <header>
+        <div class="header-content">
+            <div class="title-section">
+                <img src="logo.png" alt="Logo" class="logo">
+                <h1>Sistemas y Telecomunicaciones</h1>
+            </div>
+            <div class="header-buttons">
+                <img src="form2.png" alt="Contacto" id="toggleForm" class="toggle-form-img">
+                <img src="libro.png" alt="Enlaces" id="toggleLinks" class="toggle-form-img">
+            </div>
+        </div>
+        <nav>
+            <button onclick="location.href='#seccion1'">Conceptos</button>
+            <button onclick="location.href='#seccion2'">Disp. De Red</button>
+        </nav>
+    </header>
+    
+    <div class="main-content">
+        <div class="content-with-images">
+            <div class="text-section">
+                <h2 id="seccion1">Conceptos Fundamentales de Redes</h2>
+                <div class="image-placeholder">
+                    <img src="img2.jpg" alt="imagen1" class="imagen1" style="margin-bottom: 40px;">
+                </div>
+                
+                <h3>Cable Cruzado y Directo</h3>
+                <div class="content-with-images">
+                <div class="image-placeholder">
+                    <img src="normas-cable-de-red.png" alt="imagen1" class="imagen1 imagen-izquierda">
+                    <div class="image-text">
+                        <p>Un cable cruzado se utiliza para conectar dos dispositivos del mismo tipo, como por ejemplo un PC a una PC o un switch a otro switch.</p>
+                        <p>El cable directo conecta dos dispositivos diferentes entre sí, como por ejemplo un PC y un switch.</p>
+                    </div>
+                </div>
+                
+                </div>
+                
+                <h3>Congestión de Red</h3>
+                <div class="content-with-images">
+                <div class="image-placeholder">
+                    <img src="congestiondered.jpg" alt="imagen1" class="imagen1 imagen-izquierda">
+                    <div class="image-text">
+                        <p>La congestión de red se refiere a la saturación o sobrecarga de la red debido a un gran volumen de tráfico, lo que provoca retrasos y lentitud en la transmisión de datos.</p>
+                    </div>
+                </div>
+                </div>
+                
+                <h3>Dirección MAC</h3>
+                <div class="image-placeholder">
+                    <img src="direccionmac_muy_pequena.jpg" alt="imagen1" class="imagen1 imagen-izquierda">
+                    <div class="image-text">
+                        <p>La dirección MAC (Media Access Control) se utiliza para identificar de forma única un dispositivo en una red local, este es asignado a un dispositivo de red, como una tarjeta de red o un adaptador Wifi, permitiendo que los datos sean enviados y recibidos correctamente. Constan de un identificador único de 48 bits, los codigo se ven como 12 dígitos hexadecimales, generalmente representados con dos puntos (por ejemplo, 00:1A:2B:3C:4D:5E).</p>
+                    </div>
+                </div>
+                
+                <h3>Dominio de Colisión</h3>
+                <div class="image-placeholder">
+                    <img src="domcolision.jpeg"  class="imagen1 imagen-izquierda">
+                    <div class="image-text">
+                        <p>Un dominio de colisión es una parte de la red que comparte el medio de transporte físico con muchas computadoras. Por ejemplo, una red hogareña. Si la cantidad de computadoras aumenta es muy posible que los paquetes de mensajes colisionen, por eso es mejor un dominio de colisión con pocos dispositivos.</p>
+                    </div>
+                </div>
+                </div>
+                </div>
+    
+                <h2 id="seccion2">Dispositivos de Red</h2>
+                <div class="image-placeholder">
+                    <img src="img3.jpg" alt="imagen2" class="imagen1" style="margin-bottom: 40px;">
+                </div>
+                
+                <h3>Hub</h3>
+                <div class="image-placeholder">
+                    <img src="hub.jpeg" alt="imagen1" class="imagen1 imagen-izquierda">
+                    <div class="image-text">
+                        <p>Un hub es un dispositivo que conecta varios equipos entre sí y transmite los datos recibidos a todos los dispositivos conectados por igual, todos los equipos conectados a un mismo hub comparten el mismo dominio de colisión, lo que significa que solo uno puede transmitir a la vez.</p>
+                    </div>
+                </div>
+                
+                <h3>Switch</h3>
+                <div class="image-placeholder">
+                    <img src="switchh.jpeg" alt="imagen1" class="imagen1 imagen-izquierda">
+                    <div class="image-text">
+                        <p>Un Switch es un dispositivo de red que conecta múltiples dispositivos en una red local (LAN) para permitir la comunicación entre ellos, a diferencia del Hub, el Switch permite elegir a quien se le quiere enviar los datos, evitando problemas con el dominio de colisión y la congestión de red.</p>
+                    </div>
+                </div>
+                
+                <h3>Bridge</h3>
+                <div class="image-placeholder">
+                    <img src="bridge.jpg" alt="imagen1" class="imagen1 imagen-izquierda">
+                    <div class="image-text">
+                        <p>La función principal de un Bridge es interconectar redes, formando una sola red lógica y permitiendo la comunicación entre dispositivos en diferentes segmentos, esto rompe los dominios de colisión y ayuda a hacer la red más rápida y eficiente.</p>
+                    </div>
+                </div>
+                
+                <h3>Router</h3>
+                <div class="image-placeholder">
+                    <img src="routerr.jpeg" alt="imagen1" class="imagen1 imagen-izquierda">
+                    <div class="image-text">
+                        <p>El Router sirve para interconectar redes y acceder a internet, estos utilizan una IP para identificar de forma única un dispositivo, este se asigna por medio de un DHCP o manualmente.</p>
+                    </div>
+                </div>
+                
+                <h3>Dispositivo de Usuario Final</h3>
+                <div class="image-placeholder">
+                    <img src="usuariofinal.png" alt="imagen1" class="imagen1 imagen-izquierda">
+                    <div class="image-text">
+                        <p>Un Dispositivo de Usuario Final es todo dispositivo que utiliza una persona para conectarse, enviar o recibir datos en una red, por ejemplo, ua PC, celulares, tablets, Notebooks, etc.</p>
+                    </div>
+                </div>
+                
+                <h3>Dispositivos de Red</h3>
+                <div class="image-placeholder">
+                    <img src="redes.jpg" alt="imagen1" class="imagen1 imagen-izquierda">
+                    <div class="image-text">
+                        <p>Los dispositivos de red son los que permiten la comunicación y el tráfico de datos entre dispositivos de usuario final o diferentes redes.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay"></div>
+    <div class="form-container">
+        <form action="#" method="post">
+            <button type="button" class="close-form">&times;</button>
+            <h2>Formulario de Contacto</h2>
+            
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+    </div>
+
+    <div class="links-container">
+        <button type="button" class="close-links">&times;</button>
+        <h2>Enlaces Rápidos</h2>
+        <div class="links-grid">
+            <a href="index.html" class="link-button">Bugs</a>
+            <a href="" class="link-button">Página 3</a>
+            <a href="" class="link-button">Página 4</a>
+            <a href="" class="link-button">Página 5</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Marca Ficticia. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
